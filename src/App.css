@@ -34,6 +34,8 @@ th {
   padding: 10px;
 }
 
+
+
 td {
   letter-spacing: 1px;
   overflow-x:hidden;
@@ -49,7 +51,7 @@ table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  overflow: hidden;
+  overflow:hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -69,7 +71,7 @@ th:nth-child(4), th:nth-child(5),
 td:nth-child(4), td:nth-child(5) {
   width: 30%;
 }
-.content-td img {
+.content_td img {
   overflow-y: auto;
   height: 100%;
   max-height: 100px;
@@ -78,7 +80,7 @@ td:nth-child(4), td:nth-child(5) {
 }
 
 /* Column size for tbody */
-.content-row tr:nth-child(2n + 1) {
+.content_row tr:nth-child(2n + 1) {
   background-color: #ffeec9;
 }
 
